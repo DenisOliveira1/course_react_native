@@ -1,0 +1,49 @@
+{
+  "expo": {
+    "name": "Teste Publicação",
+    "description": "este app é legal",
+    "slug": "rn-complete-guide",
+    "privacy": "public",
+    "sdkVersion": "33.0.0",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "version": "1.0.0",
+    "orientation": "default",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#Cf1245"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.yourcompany.yourappname"
+    },
+    "android":{
+      "package":"com.academia.great_places_course",
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "foregroundImage":"./assets/places-adaptive.png",
+      "backgroundColor": "#Cf1245"
+      },
+      "permissions": [
+        "ACCESS_FINE_LOCATION",
+        "CAMERA",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "config":{
+        "googleMaps":{
+          "apiKey": "AIzaSyBtYPIgdhjhgGwnJpJDLr4prkAKwgLp14I"
+        }
+      
+      }
+  } }
+}
